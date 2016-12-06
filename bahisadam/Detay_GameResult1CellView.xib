@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Detay_GameResult1CellView" customModule="bahisadam" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewTab" destination="LkN-iF-NiL" id="x0G-X1-zFF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLs-gG-VAy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="38"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puan Durumu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZwY-8E-nRu">
+                            <rect key="frame" x="135" y="9" width="104" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="6N1-K7-l8n"/>
+                        <constraint firstItem="ZwY-8E-nRu" firstAttribute="centerX" secondItem="QLs-gG-VAy" secondAttribute="centerX" id="nbs-u6-O5Y"/>
+                        <constraint firstItem="ZwY-8E-nRu" firstAttribute="bottom" secondItem="QLs-gG-VAy" secondAttribute="bottomMargin" id="pDE-i1-m8S"/>
+                        <constraint firstItem="ZwY-8E-nRu" firstAttribute="centerY" secondItem="QLs-gG-VAy" secondAttribute="centerY" id="zeM-J7-4A7"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ea-CG-I9z">
+                    <rect key="frame" x="0.0" y="38" width="375" height="0.0"/>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LkN-iF-NiL">
+                    <rect key="frame" x="0.0" y="38" width="375" height="262"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LkN-iF-NiL" firstAttribute="top" secondItem="2ea-CG-I9z" secondAttribute="bottom" id="0jW-rl-XUe"/>
+                <constraint firstItem="2ea-CG-I9z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Ss-Av-uGF"/>
+                <constraint firstAttribute="trailing" secondItem="LkN-iF-NiL" secondAttribute="trailing" id="Jsm-wh-75S"/>
+                <constraint firstAttribute="trailing" secondItem="2ea-CG-I9z" secondAttribute="trailing" id="S6X-lF-B7e"/>
+                <constraint firstItem="LkN-iF-NiL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Zqy-hx-Sia"/>
+                <constraint firstItem="2ea-CG-I9z" firstAttribute="top" secondItem="LkN-iF-NiL" secondAttribute="top" id="e4h-R6-QaG"/>
+                <constraint firstItem="QLs-gG-VAy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qV8-fD-uXA"/>
+                <constraint firstAttribute="trailing" secondItem="QLs-gG-VAy" secondAttribute="trailing" id="set-ez-lka"/>
+                <constraint firstAttribute="bottom" secondItem="LkN-iF-NiL" secondAttribute="bottom" id="sog-j9-foU"/>
+                <constraint firstItem="QLs-gG-VAy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="tk8-Ku-9OO"/>
+                <constraint firstItem="2ea-CG-I9z" firstAttribute="top" secondItem="QLs-gG-VAy" secondAttribute="bottom" id="xXH-oG-UEa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="26.5" y="52"/>
+        </view>
+    </objects>
+</document>
